@@ -1,4 +1,4 @@
-# one-soft-project
+# vuejs-project
 
 ## Project setup
 ```

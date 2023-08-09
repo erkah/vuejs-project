@@ -23,6 +23,7 @@
 
 import { VCheckbox } from 'vuetify/lib/components';
 import { v4 as uuidv4 } from 'uuid';
+import { INITIALSTATECONTACTPREFERENCES, COLOROPTIONS } from '../constants';
 
 export default {
    components: {
@@ -36,12 +37,8 @@ export default {
     email: '',
     age: null,
     favoriteColor: null,
-    contactPreferences: [
-      { value: 'Email', selected: false },
-      { value: 'Phone Call', selected: false },
-      { value: 'SMS', selected: false }
-    ],
-    colorOptions: ['red', 'green', 'blue', 'white', 'black']
+    contactPreferences: INITIALSTATECONTACTPREFERENCES,
+    colorOptions: COLOROPTIONS
   };
 },
 methods: {

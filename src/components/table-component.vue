@@ -36,7 +36,8 @@
 </template>
 
 <script>
-import { VDataTable } from 'vuetify/labs/VDataTable'
+import { VDataTable } from 'vuetify/labs/VDataTable';
+import { TABLEHEADERS} from '../constants';
 
 export default {
    components: {
@@ -47,50 +48,7 @@ export default {
   },
   data() {
     return {
-      headers: [
-        {
-          title: 'Name',
-          align: 'center',
-          sortable: false,
-          key: 'name',
-        },
-        {
-          title: 'Surname',
-          align: 'center',
-          sortable: false,
-          key: 'surname',
-        },
-        {
-          title: 'Email',
-          align: 'center',
-          sortable: false,
-          key: 'email',
-        },
-        {
-          title: 'Age',
-          align: 'center',
-          sortable: false,
-          key: 'age',
-        },
-        {
-          title: 'Favorite Color',
-          align: 'center',
-          sortable: false,
-          key: 'favoriteColor',
-        },
-        {
-          title: 'Contact Preferences',
-          align: 'center',
-          sortable: false,
-          key: 'contactPreferences'
-        },
-        {
-          title: 'Actions',
-          align: 'center',
-          sortable: false,
-          key: 'actions',
-        }
-      ],
+      headers: TABLEHEADERS,
       showExportDialog: false
     };
   },
