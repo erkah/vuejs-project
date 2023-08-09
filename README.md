@@ -18,6 +18,7 @@ Welcome to the documentation for the Data Management App! This documentation pro
    - [Adding Data](#adding-data)
    - [Deleting Data](#deleting-data)
    - [Exporting Data](#exporting-data)
+7. [Project setup](#project-setup)
 
 ## Introduction
 
