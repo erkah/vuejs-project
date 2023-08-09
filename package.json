@@ -8,8 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@mdi/font": "^7.2.96",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "uuid": "^9.0.0",
+    "v-checkbox-group": "^1.0.3",
+    "vue": "^3.2.13",
+    "vuetify": "^3.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
